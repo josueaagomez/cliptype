@@ -80,10 +80,18 @@ One of:
 
 ## Install Into A Project
 
-Fastest path is to copy the source file into your project:
+One-line install:
 
 ```bash
-curl -L https://raw.githubusercontent.com/josueaagomez/cliptype/main/src/index.ts -o ./cliptype.ts
+curl -fsSL https://raw.githubusercontent.com/josueaagomez/cliptype/main/scripts/install.sh | bash -s -- ./src/lib/cliptype.ts
+```
+
+That writes `cliptype` to `./src/lib/cliptype.ts` by default if you pass that path.
+
+Direct raw file install:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/josueaagomez/cliptype/main/src/index.ts -o ./src/lib/cliptype.ts
 ```
 
 Or clone the repo and import the file directly.
