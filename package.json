@@ -1,0 +1,17 @@
+{
+  "name": "cliptype",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Lightweight text line splitter for clip-and-reveal animations.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "types": "./src/index.ts",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE",
+    "scripts"
+  ]
+}
